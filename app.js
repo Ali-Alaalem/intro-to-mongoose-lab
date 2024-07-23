@@ -65,8 +65,7 @@ const runQueries = async () => {
   if (query === "5") {
     console.log("Exiting...");
     mongoose.connection.close();
-  }
-  if (
+  } else if (
     query !== "5" ||
     query !== "4" ||
     query !== "3" ||
